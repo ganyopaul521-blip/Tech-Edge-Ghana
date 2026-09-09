@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechEdge Ghana | Software Development Firm</title>
+<meta name="description" content="TechEdge Ghana is a software development firm based in Accra, building web, mobile, and enterprise software for businesses across Africa.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230b0f14%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%2300d4a0%22 font-family=%22Arial%22 font-weight=%22bold%22>T</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">T<span class="dot">.</span></span>
+      <span class="logo-text">TechEdge<span class="logo-sub">GHANA</span></span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact" class="nav-cta">Start a Project</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav class="nav-mobile" id="navMobile" aria-label="Mobile">
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#process">Process</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact" class="nav-cta">Start a Project</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-glow"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow reveal"><span class="flag-dot"></span> Accra, Ghana &mdash; Building for Africa &amp; beyond</p>
+      <h1 class="reveal">
+        We engineer software<br>
+        that moves <span class="text-gradient">your business</span> forward.
+      </h1>
+      <p class="hero-sub reveal">
+        TechEdge Ghana is a software development firm crafting web platforms, mobile apps,
+        and custom enterprise systems for ambitious businesses, startups, and institutions.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary">
+          Start a Project <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="#work" class="btn btn-ghost">See Our Work</a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-count="60">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Projects Shipped</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="98">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Client Satisfaction</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="6">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Building</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="12">0</span><span class="stat-suffix"></span>
+          <span class="stat-label">Engineers on Team</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGO / TRUST STRIP -->
+  <section class="trust-strip">
+    <div class="container trust-inner">
+      <span class="trust-label">Trusted by teams across fintech, health, education &amp; retail</span>
+      <div class="trust-marquee">
+        <span>SMEs</span><span>Startups</span><span>NGOs</span><span>Fintechs</span>
+        <span>Retailers</span><span>Healthcare</span><span>Schools &amp; EdTech</span><span>Government Agencies</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-eyebrow reveal">What We Do</p>
+      <h2 class="section-title reveal">End-to-end software services</h2>
+      <p class="section-sub reveal">From a first sketch to a production system running at scale &mdash; we handle the full lifecycle.</p>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Fast, responsive websites and web apps built with modern frameworks, tuned for performance and SEO.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h3>Mobile App Development</h3>
+          <p>Native and cross-platform iOS &amp; Android apps that feel fast, look sharp, and ship on time.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <h3>Custom &amp; Enterprise Software</h3>
+          <p>Bespoke systems for operations, inventory, HR, and finance &mdash; tailored to how your business actually works.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-cloud"></i></div>
+          <h3>Cloud &amp; DevOps</h3>
+          <p>Cloud architecture, CI/CD pipelines, and infrastructure that scales without waking you up at 2am.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+          <h3>UI/UX Design</h3>
+          <p>Research-driven product design that turns complex workflows into interfaces people enjoy using.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>IT Consulting &amp; Support</h3>
+          <p>Technical audits, architecture reviews, and ongoing support to keep your systems secure and reliable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-visual reveal">
+        <div class="about-card card-a">
+          <i class="fa-solid fa-bullseye"></i>
+          <h4>Our Mission</h4>
+          <p>Equip African businesses with world-class software that competes globally.</p>
+        </div>
+        <div class="about-card card-b">
+          <i class="fa-solid fa-eye"></i>
+          <h4>Our Vision</h4>
+          <p>To be West Africa's most trusted software partner by 2030.</p>
+        </div>
+        <div class="about-card card-c">
+          <i class="fa-solid fa-heart"></i>
+          <h4>Our Values</h4>
+          <p>Craftsmanship, transparency, and long-term partnership over quick wins.</p>
+        </div>
+      </div>
+      <div class="about-copy">
+        <p class="section-eyebrow reveal">About TechEdge Ghana</p>
+        <h2 class="section-title reveal">Local team. Global standards.</h2>
+        <p class="reveal">
+          Founded in Accra, TechEdge Ghana is a team of engineers, designers, and product
+          strategists who believe great software shouldn't be a luxury reserved for
+          companies abroad. We partner with startups, SMEs, and institutions across Ghana
+          and the wider region to design and build digital products that actually solve
+          problems &mdash; then stick around to help them grow.
+        </p>
+        <ul class="about-points reveal">
+          <li><i class="fa-solid fa-check"></i> Senior engineers on every project, not just juniors</li>
+          <li><i class="fa-solid fa-check"></i> Clear pricing, timelines, and weekly progress updates</li>
+          <li><i class="fa-solid fa-check"></i> Post-launch support &amp; maintenance included</li>
+          <li><i class="fa-solid fa-check"></i> Built to scale from MVP to enterprise</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary reveal">Work With Us <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / PORTFOLIO -->
+  <section class="work" id="work">
+    <div class="container">
+      <p class="section-eyebrow reveal">Selected Work</p>
+      <h2 class="section-title reveal">Products we've built</h2>
+      <p class="section-sub reveal">Real projects, live in production. Click through to see them in action.</p>
+
+      <div class="work-grid">
+        <a class="work-card reveal" href="https://amor-regius.vercel.app/" target="_blank" rel="noopener">
+          <div class="work-thumb thumb-2">
+            <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Famor-regius.vercel.app%2F?w=700" alt="Amor Regius event platform landing page" loading="lazy">
+          </div>
+          <div class="work-body">
+            <span class="work-tag">Event Ticketing</span>
+            <h3>Amor Regius Event Platform</h3>
+            <p>A ticketing &amp; award-voting platform for a university dinner &amp; awards night, with tiered ticket pricing and secure Paystack payments.</p>
+            <span class="work-link">View live project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+        <a class="work-card reveal" href="https://budget-mate-lake.vercel.app/" target="_blank" rel="noopener">
+          <div class="work-thumb thumb-1">
+            <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbudget-mate-lake.vercel.app%2F?w=700" alt="BudgetMate app landing page" loading="lazy">
+          </div>
+          <div class="work-body">
+            <span class="work-tag">Personal Finance</span>
+            <h3>BudgetMate</h3>
+            <p>A budgeting web app for tracking income, expenses, and savings goals with a clean, easy-to-use dashboard.</p>
+            <span class="work-link">View live project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+        <a class="work-card reveal" href="https://portfolio-zncj.vercel.app/" target="_blank" rel="noopener">
+          <div class="work-thumb thumb-3">
+            <img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fportfolio-zncj.vercel.app%2F?w=700" alt="Portfolio site landing page" loading="lazy">
+          </div>
+          <div class="work-body">
+            <span class="work-tag">Portfolio</span>
+            <h3>Professional Portfolio Site</h3>
+            <p>A fast, animated portfolio &amp; digital resume for a software engineer &mdash; built to help clients find and hire them.</p>
+            <span class="work-link">View live project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+      </div>
+      <p class="work-note reveal">We also build e-commerce, fintech, healthcare, education, and logistics platforms &mdash; <a href="#contact">tell us what you need</a>.</p>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <p class="section-eyebrow reveal">How We Work</p>
+      <h2 class="section-title reveal">A process built for clarity</h2>
+
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <span class="process-num">01</span>
+          <h3>Discover</h3>
+          <p>We dig into your goals, users, and constraints to scope the right solution &mdash; not just any solution.</p>
+        </div>
+        <div class="process-step reveal">
+          <span class="process-num">02</span>
+          <h3>Design</h3>
+          <p>Wireframes and UI design you review and approve before a single line of code is written.</p>
+        </div>
+        <div class="process-step reveal">
+          <span class="process-num">03</span>
+          <h3>Build</h3>
+          <p>Agile sprints with weekly demos, so you always know exactly what's shipping and when.</p>
+        </div>
+        <div class="process-step reveal">
+          <span class="process-num">04</span>
+          <h3>Launch &amp; Support</h3>
+          <p>We deploy, monitor, and stay on for maintenance, updates, and scaling as you grow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <p class="section-eyebrow reveal">Client Feedback</p>
+      <h2 class="section-title reveal">What partners say about us</h2>
+
+      <div class="testimonial-grid">
+        <figure class="testimonial-card reveal">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <blockquote>TechEdge built our ticketing and voting platform from scratch in a few weeks. Paystack payments didn't miss a beat all through the event night.</blockquote>
+          <figcaption>
+            <span class="t-name">Nana Adjei</span>
+            <span class="t-role">Event Coordinator, Amor Regius</span>
+          </figcaption>
+        </figure>
+        <figure class="testimonial-card reveal">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <blockquote>They turned our idea for a budgeting app into a clean, genuinely easy-to-use product. Exactly what we needed to get BudgetMate off the ground.</blockquote>
+          <figcaption>
+            <span class="t-name">Kwabena Asante</span>
+            <span class="t-role">Founder, BudgetMate</span>
+          </figcaption>
+        </figure>
+        <figure class="testimonial-card reveal">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <blockquote>My new portfolio site loads instantly and looks sharp on every device. I've had more client inquiries in the first month than in the previous six.</blockquote>
+          <figcaption>
+            <span class="t-name">Paul Ganyo</span>
+            <span class="t-role">Freelance Software Engineer</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner reveal">
+      <h2>Have a project in mind?</h2>
+      <p>Tell us what you're building &mdash; we'll get back to you within one business day.</p>
+      <a href="#contact" class="btn btn-primary">Get a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info reveal">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's build something great</h2>
+        <p class="section-sub">
+          Reach out with a few details about your project and we'll follow up to schedule
+          a free consultation.
+        </p>
+
+        <div class="contact-detail">
+          <i class="fa-solid fa-location-dot"></i>
+          <div><strong>Office</strong><span>Accra, Ghana</span></div>
+        </div>
+        <div class="contact-detail">
+          <i class="fa-solid fa-envelope"></i>
+          <div><strong>Email</strong><span><a href="mailto:techedgeghana@gmail.com">techedgeghana@gmail.com</a></span></div>
+        </div>
+        <div class="contact-detail">
+          <i class="fa-brands fa-whatsapp"></i>
+          <div><strong>WhatsApp</strong><span><a href="https://wa.me/233245416445" target="_blank" rel="noopener">+233 245 416445</a></span></div>
+        </div>
+
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://instagram.com/Techedge890" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <!-- Get your free Access Key at https://web3forms.com (enter techedgeghana@gmail.com) and paste it below -->
+        <input type="hidden" name="access_key" value="807ab688-d38d-4d27-9090-80ec710835f4">
+        <input type="hidden" name="subject" value="New project inquiry from TechEdge Ghana website">
+        <input type="hidden" name="from_name" value="TechEdge Ghana Website">
+        <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Kofi Mensah" required>
+            <span class="error-msg">Please enter your name</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+            <span class="error-msg">Please enter a valid email</span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="+233 245 416445">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="web">Web Development</option>
+              <option value="mobile">Mobile App Development</option>
+              <option value="enterprise">Custom / Enterprise Software</option>
+              <option value="cloud">Cloud &amp; DevOps</option>
+              <option value="design">UI/UX Design</option>
+              <option value="consulting">IT Consulting</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Project Details</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about what you're building..." required></textarea>
+          <span class="error-msg">Please tell us a little about your project</span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+          <span class="btn-label">Send Message <i class="fa-solid fa-paper-plane"></i></span>
+        </button>
+        <p class="form-success" id="formSuccess">
+          <i class="fa-solid fa-circle-check"></i> Thanks! Your message has been sent &mdash; we'll get back to you within one business day.
+        </p>
+        <p class="form-error" id="formError">
+          <i class="fa-solid fa-circle-exclamation"></i> Something went wrong sending your message. Please email us directly at <a href="mailto:techedgeghana@gmail.com">techedgeghana@gmail.com</a>.
+        </p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <span class="logo-mark">T<span class="dot">.</span></span>
+        <span class="logo-text">TechEdge<span class="logo-sub">GHANA</span></span>
+      </a>
+      <p>Software development firm based in Accra, Ghana &mdash; building web, mobile, and enterprise products.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <a href="#about">About Us</a>
+      <a href="#work">Our Work</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Testimonials</a>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <a href="#services">Web Development</a>
+      <a href="#services">Mobile Apps</a>
+      <a href="#services">Enterprise Software</a>
+      <a href="#services">Cloud &amp; DevOps</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="mailto:techedgeghana@gmail.com">techedgeghana@gmail.com</a>
+      <a href="https://wa.me/233245416445" target="_blank" rel="noopener">+233 245 416445 (WhatsApp)</a>
+      <span>Accra, Ghana</span>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span id="year"></span> TechEdge Ghana. All rights reserved.</span>
+    <span class="footer-flag">Proudly Ghanaian <span class="flag-dot"></span></span>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/233245416445" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
