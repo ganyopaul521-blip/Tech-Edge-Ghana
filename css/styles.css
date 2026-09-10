@@ -705,6 +705,14 @@ section { padding: 110px 0; }
   color: var(--text-faint);
 }
 .footer-flag { display: inline-flex; align-items: center; gap: 8px; }
+.footer-flag-img {
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 35%;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
 .footer-legal-links { display: flex; align-items: center; gap: 18px; }
 .footer-legal-links a { color: var(--text-faint); font-size: 0.82rem; transition: color .2s ease; }
 .footer-legal-links a:hover { color: var(--accent); }
