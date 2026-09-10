@@ -709,7 +709,7 @@ section { padding: 110px 0; }
   width: 20px; height: 20px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 35%;
+  object-position: center;
   border: 1px solid var(--border);
   flex-shrink: 0;
 }
